@@ -71,6 +71,7 @@ skills: skill-folder-name
 domain: domain-name
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+team_capable: true
 ---
 ```
 
@@ -81,6 +82,20 @@ tools: [Read, Write, Bash, Grep, Glob]
 - **domain**: Domain category (marketing, product, engineering, c-level, pm, ra-qm)
 - **model**: Claude model to use (sonnet, opus, haiku)
 - **tools**: Array of Claude Code tools agent can use
+- **team_capable**: `true` if this agent follows the team collaboration protocol (see below). Default for all cs-* agents.
+
+### Team Collaboration Protocol
+
+Agents with `team_capable: true` automatically follow the shared teammate playbook at [../standards/communication/team-collaboration.md](../standards/communication/team-collaboration.md). That document governs:
+
+- **Team discovery** — reading `~/.claude/teams/{team-name}/config.json` to learn the roster
+- **Task list coordination** — claiming, completing, and creating tasks via `TaskList` / `TaskGet` / `TaskUpdate` / `TaskCreate`
+- **Messaging** — `SendMessage` rules, addressing by name, broadcast etiquette
+- **Lifecycle** — idle semantics, shutdown handshake, handoff between tasks
+
+Agents do **not** duplicate this content in their own files. The frontmatter flag is the contract; the standards doc is the implementation. When a cs-* agent is spawned inside a team (via `TeamCreate` + `Agent` with `team_name` and `name`), it reads the protocol and follows it in addition to its domain-specific workflows.
+
+To opt an agent out, set `team_capable: false` or omit the field.
 
 ### Required Markdown Sections
 

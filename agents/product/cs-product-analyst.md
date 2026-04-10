@@ -6,7 +6,8 @@ skills:
   - product-team/experiment-designer
 domain: product
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Product Analyst Agent

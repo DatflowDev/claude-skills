@@ -4,7 +4,8 @@ description: Product management agent for feature prioritization, customer disco
 skills: product-team/product-manager-toolkit, product-team/agile-product-owner, product-team/product-strategist, product-team/ux-researcher-designer, product-team/ui-design-system, product-team/competitive-teardown, product-team/landing-page-generator, product-team/saas-scaffolder
 domain: product
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Product Manager Agent

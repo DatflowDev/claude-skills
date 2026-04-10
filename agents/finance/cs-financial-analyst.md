@@ -4,7 +4,8 @@ description: Financial Analyst agent for DCF valuation, financial modeling, budg
 skills: finance
 domain: finance
 model: opus
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # cs-financial-analyst

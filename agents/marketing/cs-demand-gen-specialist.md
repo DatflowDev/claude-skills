@@ -4,7 +4,8 @@ description: Demand generation and customer acquisition specialist for lead gene
 skills: marketing-skill/marketing-demand-acquisition
 domain: marketing
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Demand Generation Specialist Agent

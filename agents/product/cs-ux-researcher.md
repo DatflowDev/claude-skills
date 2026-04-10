@@ -4,7 +4,8 @@ description: UX research agent for research planning, persona generation, journe
 skills: product-team/ux-researcher-designer, product-team/product-manager-toolkit, product-team/ui-design-system
 domain: product
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # UX Researcher Agent

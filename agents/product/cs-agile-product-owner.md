@@ -4,7 +4,8 @@ description: Agile product owner agent for epic breakdown, sprint planning, back
 skills: product-team/agile-product-owner, product-team/product-manager-toolkit
 domain: product
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Agile Product Owner Agent

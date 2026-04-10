@@ -4,7 +4,8 @@ description: AI-powered content creation specialist for brand voice consistency,
 skills: marketing-skill/content-creator
 domain: marketing
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Content Creator Agent

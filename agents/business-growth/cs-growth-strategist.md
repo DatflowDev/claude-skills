@@ -4,7 +4,8 @@ description: Growth Strategist agent for revenue operations, sales engineering, 
 skills: business-growth
 domain: business-growth
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # cs-growth-strategist

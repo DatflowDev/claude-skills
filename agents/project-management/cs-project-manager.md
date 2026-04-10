@@ -4,7 +4,8 @@ description: Project Manager agent for sprint planning, Jira/Confluence workflow
 skills: project-management
 domain: pm
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Project Manager Agent

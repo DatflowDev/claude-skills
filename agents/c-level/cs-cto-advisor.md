@@ -4,7 +4,8 @@ description: Technical leadership advisor for CTOs covering technology strategy,
 skills: c-level-advisor/cto-advisor
 domain: c-level
 model: opus
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # CTO Advisor Agent

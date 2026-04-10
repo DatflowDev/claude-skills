@@ -4,7 +4,8 @@ description: Engineering Team Lead agent for coordinating QA, security, data eng
 skills: engineering-team
 domain: engineering
 model: opus
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # cs-engineering-lead

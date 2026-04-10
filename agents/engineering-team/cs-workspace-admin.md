@@ -4,7 +4,8 @@ description: Google Workspace administration agent using the gws CLI. Orchestrat
 skills: engineering-team/google-workspace-cli
 domain: engineering
 model: opus
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # cs-workspace-admin

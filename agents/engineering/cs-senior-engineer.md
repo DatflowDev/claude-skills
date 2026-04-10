@@ -4,7 +4,8 @@ description: Senior Engineer agent for architecture decisions, code review, DevO
 skills: engineering
 domain: engineering
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # cs-senior-engineer

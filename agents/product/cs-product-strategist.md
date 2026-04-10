@@ -4,7 +4,8 @@ description: Product strategy agent for quarterly OKR planning, competitive land
 skills: product-team/product-strategist, product-team/competitive-teardown, product-team/product-manager-toolkit
 domain: product
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # Product Strategist Agent

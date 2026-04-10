@@ -4,7 +4,8 @@ description: Quality & Regulatory agent for ISO 13485 QMS, MDR compliance, FDA s
 skills: ra-qm-team
 domain: ra-qm
 model: sonnet
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # cs-quality-regulatory

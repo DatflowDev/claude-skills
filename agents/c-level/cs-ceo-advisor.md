@@ -4,7 +4,8 @@ description: Strategic leadership advisor for CEOs covering vision, strategy, bo
 skills: c-level-advisor/ceo-advisor
 domain: c-level
 model: opus
-tools: [Read, Write, Bash, Grep, Glob]
+tools: [Read, Write, Edit, Bash, Grep, Glob, SendMessage, TaskList, TaskGet, TaskUpdate]
+team_capable: true
 ---
 
 # CEO Advisor Agent
